@@ -3,8 +3,8 @@
 const controller = require('../controller/controller');
 
 module.exports = (app) => {
-    app.route('/api/getAllProducts').get(controller.getAllProducts);
-    app.route('/api/getProductsInCart').get(controller.getProductsInCart);
-    app.route('/api/addProductToCart').post(controller.addProductToCart);
-    app.route('/api/sendOrder').post(controller.sendOrder);
+    app.route('/getAllProducts').get(controller.getAllProducts);
+    app.route('/getProductsInCart').get(controller.getProductsInCart);
+    app.route('/addProductToCart').post(controller.addProductToCart);
+    app.route('/sendOrder').post(controller.sendOrder);
 }
