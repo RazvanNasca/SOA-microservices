@@ -1,0 +1,17 @@
+version: "3"
+services:
+  host:
+    build: ./host
+    env_file: ./host/.env
+    ports:
+      - 8080:8080
+  order-ms:
+    build: ./order
+    env_file: ./order/.env
+    ports:
+      - 8081:8081
+  products-ms:
+    build: ./products
+    env_file: ./products/.env
+    ports:
+      - 8082:8082
