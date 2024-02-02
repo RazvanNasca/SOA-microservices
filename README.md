@@ -1,6 +1,6 @@
 # SOA-microservices by Nașca Răzvan-Alexandru
 
-# MicroServices Application Documentation
+## MicroServices Application Documentation
 This document provides an overview of the Micro Service application, its architecture and how to run and develop it.
 
 # Overview 
